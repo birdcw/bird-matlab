@@ -3,6 +3,8 @@ bird-matlab
 
 ####Some Matlab functions. Will update with new tools periodically.
 
-#####regeprep_prompt()
+#####fileregexprep()
 
-combines the file multiselect gui, filemove, and regexprep to give you a simple gui for selecting files to rename based of replace (a regular expression) with (a string). More info available in the file comments.
+fileregexprep(expression, replace)
+
+replaces the text in each filename that matches expression with the text described by replace. Filenames are defined by uigetfile, displayed at the onset of fileregexprep. See matlab regexprep documentation for expression use.
